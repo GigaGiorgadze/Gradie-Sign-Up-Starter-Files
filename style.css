@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./Assets/Background.png');
+    background-size: 100vw 100vh;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+.main{
+    background: white;
+    width: 50vw;
+    margin: 20vh auto;
+    height: 500px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    background: #013243;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left h1{
+    color: white;
+}
+.left span{
+    color: #69A0B4;
+}
+.left img{
+    width: 100%;
+    height: 400px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right h1{
+    text-align: start;
+}
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+form input{
+    height: 40px;
+    width: 100%;
+}
+form label{
+    margin: 8% 0% 2% 0%;
+}
+form span{
+    width: 60%;
+    align-self: center;
+    margin: 10% 0;
+}
+input[type='submit']{
+    background: #013243;
+    color: white;
+    border: none;
+    height: 50px;
+}
